@@ -6,7 +6,7 @@
 <script>
     new Tornpaper().run;
 </script>
-
+-
 ##Options
     new Tornpaper({
         grunge: true
