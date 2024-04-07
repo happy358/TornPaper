@@ -22,22 +22,25 @@ filter: url(#filter_tornpaper);
 }
 ```
 #### tornpaper with grungepaper 
-```
+```css
 :root {
     --grungepaper: url();
 }
 .your-class {
 background: var(--grungepaper) center/cover repeat;
+background-color:white;
+background-blend-mode: multiply;
 filter: url(#filter_tornpaper);
 }
 ```
-#### tornpaper with grungepaper and any other background-image(or color)
-```
+#### tornpaper with grungepaper and any other background-image
+```css
 :root {
     --grungepaper: url();
 }
 .your-class {
 background: url("https://source.unsplash.com/random/") center/cover, var(--grungepaper) center/cover repeat;
+background-color:white;
     background-blend-mode: multiply;
 filter: url(#filter_tornpaper);
 }
