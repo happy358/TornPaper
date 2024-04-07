@@ -55,10 +55,10 @@
 ## Options 
 ```
 new Tornpaper({
-    seed:1,
+    seed:1, // default:random number
     tornFrequency : 0.05,
     tornScale : 10,
-    grunge: true,
+    grunge: true, // default:true
     grungeFrequency : 0.05,
     grungeScale : 5
 }).run;
