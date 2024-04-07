@@ -59,8 +59,8 @@ new Tornpaper({
     tornFrequency : 0.05,
     tornScale : 10,
     grunge: true, // default:true
-    grungeFrequency : 0.05,
-    grungeScale : 5
+    grungeFrequency : 0.03,
+    grungeScale : 3
 }).run;
 ```
 ## References 
