@@ -21,8 +21,9 @@
 ##References
 -
 Inspired by fguilleme.
-[https://codepen.io/fguilleme/pen/MMyKXB](https://codepen.io/fguilleme/pen/MMyKXB) on [codepen](https://codepen.io/)
+[https://codepen.io/fguilleme/pen/MMyKXB](https://codepen.io/fguilleme/pen/MMyKXB)
 -
+SVG Filter Effects: Creating Texture with <feTurbulence>
 [https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/](https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/)
 -
 Thanks!
