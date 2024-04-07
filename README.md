@@ -2,7 +2,7 @@
  
 Creating torn edge and grunge paper effect using SVG and JavaScript.
  
-![ScreenShot](./assets/screenshot.jpg?raw=true "TornPaper.js")
+![ScreenShot](./assets/ScreenShot.jpeg?raw=true "TornPaper.js")
  
 ## Demo 
 [https://codepen.io/wakana-k/full/PogRqLx](https://codepen.io/wakana-k/full/PogRqLx)
