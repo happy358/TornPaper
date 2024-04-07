@@ -23,8 +23,9 @@
 }
 .your-class {
     filter: url(#filter_tornpaper);
-    background: var(--grungepaper) center/cover repeat;
-    background-color:white;
+    background-image: var(--grungepaper);
+    background-size: cover;
+    background-color: peachpuff;
     background-blend-mode: multiply;
 }
 ```
@@ -38,7 +39,6 @@
 .your-class {
     filter: url(#filter_tornpaper);
     background: url("https://source.unsplash.com/random/") center/cover, var(--grungepaper) center/cover repeat;
-    background-color:white;
     background-blend-mode: multiply;
 }
 ```
