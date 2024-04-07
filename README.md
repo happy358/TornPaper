@@ -13,7 +13,24 @@
 </script>
 ```
 
-### css
+### css 
+#### only tornpaper(not use grungepaper) 
+```
+.your-class {
+filter: url(#filter_tornpaper);
+}
+```
+#### tornpaper with grungepaper 
+```
+:root {
+    --grungepaper: url();
+}
+.your-class {
+background: var(--grungepaper) center/cover repeat;
+filter: url(#filter_tornpaper);
+}
+```
+#### tornpaper with grungepaper and background-images(or color)
 ```
 :root {
     --grungepaper: url();
