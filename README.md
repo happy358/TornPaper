@@ -7,7 +7,7 @@
  
  
 ## Usage 
-### html
+### html:
 ```html
 <script src="https://cdn.jsdelivr.net/gh/happy358/TornPaper/tornpaper.min.js"></script>
 <script>
@@ -15,7 +15,7 @@
 </script>
 ```
 
-### css 
+### css:
  
 * tornpaper with grungepaper 
 ```css
