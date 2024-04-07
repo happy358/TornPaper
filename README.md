@@ -3,8 +3,9 @@
 ![ScreenShot](./assets/screenshot.jpg?raw=true "TornPaper.js")
  
 ## Demo 
-
-
+[https://codepen.io/wakana-k/full/PogRqLx](https://codepen.io/wakana-k/full/PogRqLx)
+ 
+ 
 ## Usage 
 ### html
 ```html
@@ -16,7 +17,7 @@
 
 ### css 
  
-#### tornpaper with grungepaper 
+* tornpaper with grungepaper 
 ```css
 :root {
     --grungepaper: url();
@@ -31,7 +32,7 @@
 ```
 
  
-#### tornpaper with grungepaper and any other background-image
+* tornpaper with grungepaper and any other background-image
 ```css
 :root {
     --grungepaper: url();
@@ -44,7 +45,7 @@
 ```
 
 
-#### only tornpaper 
+* only tornpaper 
 ```css
 .your-class {
     filter: url(#filter_tornpaper);
