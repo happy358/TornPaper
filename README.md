@@ -19,11 +19,9 @@
     }).run;
 ```
 ##References
--
-Inspired by fguilleme.
+-Inspired by fguilleme.
 [https://codepen.io/fguilleme/pen/MMyKXB](https://codepen.io/fguilleme/pen/MMyKXB)
--
-SVG Filter Effects: Creating Texture with <feTurbulence>
+-SVG Filter Effects: Creating Texture with &lt;feTurbulence&gt;
 [https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/](https://tympanus.net/codrops/2019/02/19/svg-filter-effects-creating-texture-with-feturbulence/)
 -
 Thanks!
