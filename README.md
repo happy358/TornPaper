@@ -1,6 +1,6 @@
 # TornPaper 
  
-![Alt text](./assets/screenshot.jpg?raw=true "TornPaper.js")
+![ScreenShot](./assets/screenshot.jpg?raw=true "TornPaper.js")
  
 ## Demo 
 
@@ -23,10 +23,10 @@
     --grungepaper: url();
 }
 .your-class {
-background: var(--grungepaper) center/cover repeat;
-background-color:white;
-background-blend-mode: multiply;
-filter: url(#filter_tornpaper);
+    filter: url(#filter_tornpaper);
+    background: var(--grungepaper) center/cover repeat;
+    background-color:white;
+    background-blend-mode: multiply;
 }
 ```
 
@@ -37,10 +37,10 @@ filter: url(#filter_tornpaper);
     --grungepaper: url();
 }
 .your-class {
-background: url("https://source.unsplash.com/random/") center/cover, var(--grungepaper) center/cover repeat;
-background-color:white;
+    filter: url(#filter_tornpaper);
+    background: url("https://source.unsplash.com/random/") center/cover, var(--grungepaper) center/cover repeat;
+    background-color:white;
     background-blend-mode: multiply;
-filter: url(#filter_tornpaper);
 }
 ```
 
@@ -48,21 +48,21 @@ filter: url(#filter_tornpaper);
 #### only tornpaper 
 ```css
 .your-class {
-filter: url(#filter_tornpaper);
+    filter: url(#filter_tornpaper);
 }
 ```
 
  
 ## Options 
 ```
-    new Tornpaper({
-seed:1,
-tornFrequency : 0.05,
-        tornScale : 10,
- grunge: true,
-        grungeFrequency : 0.05,
-        grungeScale : 5
-    }).run;
+new Tornpaper({
+    seed:1,
+    tornFrequency : 0.05,
+    tornScale : 10,
+    grunge: true,
+    grungeFrequency : 0.05,
+    grungeScale : 5
+}).run;
 ```
 ## References 
 - Inspired by fguilleme. 
