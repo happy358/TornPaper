@@ -53,7 +53,12 @@ filter: url(#filter_tornpaper);
 ## Options 
 ```
     new Tornpaper({
-        grunge: true
+seed:1,
+tornFrequency : 0.05,
+        tornScale : 10,
+ grunge: true,
+        grungeFrequency : 0.05,
+        grungeScale : 5
     }).run;
 ```
 ## References 
