@@ -14,14 +14,14 @@
 ```
 
 ### css 
-#### only tornpaper 
+- only tornpaper 
 (not use grungepaper) 
 ```css
 .your-class {
 filter: url(#filter_tornpaper);
 }
 ```
-#### tornpaper with grungepaper 
+- tornpaper with grungepaper 
 ```css
 :root {
     --grungepaper: url();
@@ -33,7 +33,7 @@ background-blend-mode: multiply;
 filter: url(#filter_tornpaper);
 }
 ```
-#### tornpaper with grungepaper and any other background-image
+- tornpaper with grungepaper and any other background-image
 ```css
 :root {
     --grungepaper: url();
