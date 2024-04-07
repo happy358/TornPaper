@@ -14,7 +14,8 @@
 ```
 
 ### css 
-#### only tornpaper(not use grungepaper) 
+#### only tornpaper 
+(not use grungepaper) 
 ```
 .your-class {
 filter: url(#filter_tornpaper);
@@ -30,13 +31,14 @@ background: var(--grungepaper) center/cover repeat;
 filter: url(#filter_tornpaper);
 }
 ```
-#### tornpaper with grungepaper and background-images(or color)
+#### tornpaper with grungepaper and any other background-image(or color)
 ```
 :root {
     --grungepaper: url();
 }
 .your-class {
-background: var(--grungepaper) center/cover repeat;
+background: url("https://source.unsplash.com/random/") center/cover, var(--grungepaper) center/cover repeat;
+    background-blend-mode: multiply;
 filter: url(#filter_tornpaper);
 }
 ```
