@@ -1,5 +1,7 @@
 # TornPaper 
-
+ 
+![Alt text](./assets/screenshot.jpg?raw=true "TornPaper.js")
+ 
 ## Demo 
 
 
