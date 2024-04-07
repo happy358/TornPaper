@@ -14,7 +14,15 @@
 ```
 
 ### css
-
+```
+:root {
+    --grungepaper: url();
+}
+.your-class {
+background: var(--grungepaper) center/cover repeat;
+filter: url(#filter_tornpaper);
+}
+```
  
 ## Options 
 ```
