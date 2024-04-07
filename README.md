@@ -5,7 +5,7 @@
 
 ## Usage 
 ### html
-```
+```html
 <script src="https://cdn.jsdelivr.net/gh/happy358/TornPaper
 /tornpaper.min.js"></script>
 <script>
@@ -16,7 +16,7 @@
 ### css 
 #### only tornpaper 
 (not use grungepaper) 
-```
+```css
 .your-class {
 filter: url(#filter_tornpaper);
 }
