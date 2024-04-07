@@ -15,12 +15,12 @@
 
 ### css 
 - only tornpaper 
-(not use grungepaper) 
 ```css
 .your-class {
 filter: url(#filter_tornpaper);
 }
 ```
+
  
 - tornpaper with grungepaper 
 ```css
@@ -34,6 +34,7 @@ background-blend-mode: multiply;
 filter: url(#filter_tornpaper);
 }
 ```
+
  
 - tornpaper with grungepaper and any other background-image
 ```css
@@ -47,6 +48,7 @@ background-color:white;
 filter: url(#filter_tornpaper);
 }
 ```
+
  
 ## Options 
 ```
