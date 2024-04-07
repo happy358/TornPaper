@@ -9,7 +9,7 @@
 ## Usage 
 ### html:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/happy358/TornPaper/tornpaper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/happy358/TornPaper@v1.0.0/tornpaper.min.js"></script>
 <script>
     new Tornpaper().run;
 </script>
