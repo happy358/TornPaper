@@ -17,7 +17,7 @@
 
 ### css 
  
-- tornpaper with grungepaper 
+#### tornpaper with grungepaper 
 ```css
 :root {
     --grungepaper: url();
@@ -31,7 +31,7 @@ filter: url(#filter_tornpaper);
 ```
 
  
-- tornpaper with grungepaper and any other background-image
+#### tornpaper with grungepaper and any other background-image
 ```css
 :root {
     --grungepaper: url();
@@ -45,7 +45,7 @@ filter: url(#filter_tornpaper);
 ```
 
 
-- only tornpaper 
+#### only tornpaper 
 ```css
 .your-class {
 filter: url(#filter_tornpaper);
