@@ -21,6 +21,7 @@
 filter: url(#filter_tornpaper);
 }
 ```
+ 
 - tornpaper with grungepaper 
 ```css
 :root {
@@ -33,6 +34,7 @@ background-blend-mode: multiply;
 filter: url(#filter_tornpaper);
 }
 ```
+ 
 - tornpaper with grungepaper and any other background-image
 ```css
 :root {
