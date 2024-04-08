@@ -8,6 +8,9 @@ Creating torn edge and grunge paper effect using SVG and JavaScript.
 * TornPaper.js demo 
   [https://codepen.io/wakana-k/full/PogRqLx](https://codepen.io/wakana-k/full/PogRqLx)
 
+* clip-path animation demo
+  [https://codepen.io/wakana-k/full/RwOMdoY](https://codepen.io/wakana-k/full/RwOMdoY)
+  
 * Torn paper photo gallery 
   [https://codepen.io/wakana-k/full/ExJEvor](https://codepen.io/wakana-k/full/ExJEvor)
 
