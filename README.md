@@ -11,9 +11,9 @@ Creating torn edge and grunge paper effect using SVG and JavaScript.
 ## Usage 
 ### html:
 ```html
-<script src="https://cdn.jsdelivr.net/gh/happy358/TornPaper@v1.0.0/tornpaper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/happy358/TornPaper@v0.0.1/tornpaper.min.js"></script>
 <script>
-    new Tornpaper().run;
+    new Tornpaper();
 </script>
 ```
 
@@ -21,49 +21,30 @@ Creating torn edge and grunge paper effect using SVG and JavaScript.
  
 * tornpaper with grungepaper 
 ```css
-:root {
-    --grungepaper: url();
-}
 .your-class {
     filter: url(#filter_tornpaper);
-    background-image: var(--grungepaper);
-    background-size: cover;
     background-color: peachpuff;
-    background-blend-mode: multiply;
 }
 ```
 
  
-* tornpaper with grungepaper and any other background-image
+* tornpaper with background-image
 ```css
-:root {
-    --grungepaper: url();
-}
 .your-class {
     filter: url(#filter_tornpaper);
-    background: url("https://source.unsplash.com/random/") center/cover, var(--grungepaper) center/cover repeat;
-    background-blend-mode: multiply;
+    background: url("https://source.unsplash.com/random/") center/cover;
 }
 ```
 
 
-* only tornpaper 
-```css
-.your-class {
-    filter: url(#filter_tornpaper);
-}
-```
-
- 
 ## Options 
 ```
 new Tornpaper({
     seed:1, // default:random number
     tornFrequency : 0.05,
     tornScale : 10,
-    grunge: true, // default:true
-    grungeFrequency : 0.03,
-    grungeScale : 3
+    grungeFrequency : 0.02,
+    grungeScale : 2
 }).run;
 ```
 ## References 
