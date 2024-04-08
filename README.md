@@ -47,7 +47,7 @@ new Tornpaper({
     tornScale : 10,
     grungeFrequency : 0.03,
     grungeScale : 3
-}).run;
+});
 ```
 ## References 
 - Inspired by fguilleme. 
