@@ -43,8 +43,8 @@ new Tornpaper({
     seed:1, // default:random number
     tornFrequency : 0.05,
     tornScale : 10,
-    grungeFrequency : 0.02,
-    grungeScale : 2
+    grungeFrequency : 0.03,
+    grungeScale : 3
 }).run;
 ```
 ## References 
